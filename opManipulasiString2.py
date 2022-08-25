@@ -24,6 +24,8 @@ print("No Lowered = ",salam)
 salaman = aneh.lower()
 print("Lowerd= "+salaman)
 
+
+print("'"+ tengah + "Pengecekkan String" + "'")
 # Method pengecekan Upper/Lower Casenya
 
 # islower() <- untuk pengecekan apakah lower case semua
@@ -55,9 +57,53 @@ apakahTitle = e.istitle()
 print("Apakah Title?... ",str(apakahTitle))
 
 
+# Start with | End With
+
+cek_Start = "Pancaran Ratnam".startswith("Pancaran")
+print("Start with .."+ str(cek_Start))
+
+cek_end = "Pancaran Ratnam".endswith("Pancaran")
+print("end with .."+ str(cek_end))
 
 
+# Join | split 
+
+pisahkan = ['Anca','Capek','Hidup']
+gabungkan = '-'
+print(pisahkan)
+print(gabungkan)
+
+gabung = "Naik vespa itu seru"
+pisah = gabung.split()
+print(gabung)
+print(pisah)
+
+gabungan = "naikvespaituenak"
+pisah = gabungan.split("has")
+print(gabungan)
+print(pisah)
 
 
+# ALOKASI KARAKTER
+print("'kiri      '")
+
+kanan = "kanan".rjust(20) # rata kanan dengan 20 karakter
+print("'" + kanan + "'")
+
+kiri = "kiri".ljust(20) # rata kiri dengan 20 karakter
+print("'" + kiri + "'")
+
+tengah ="tengah".center(20) # rata tengah dengan 20 karakter
+print("'" + tengah + "'")
+
+
+tengah ="tengah".center(20,'-') # rata tengah dengan 20 karakter
+print("'" + tengah + "'")
+
+# kebalikan dari alokasi karakter
+kanan = kanan.strip()
+print("'" + kanan + "'")
+tengah = tengah.strip('-')
+print("'" + tengah + "'")
 
 
