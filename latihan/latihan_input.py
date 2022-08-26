@@ -22,7 +22,7 @@ if input == "m" :
   print("U're Male")
 elif input == "f" :
   print("U're Female") 
-else : input == "" 
+else : input == ""
 print("none")
 
 
