@@ -7,6 +7,10 @@ nama = "pancaran"
 format = f"Hello {nama}"
 print(format)
 
+angka = 1
+fr = f"Hai {angka}"
+print(fr)
+
 # boolean 
 b = True
 formatb = f"Boolean {b}"
