@@ -1,5 +1,7 @@
 #  for loop disebut juga iterator
 
+from calendar import month
+
 print(5* "*" *5)
 bulan = ["Januari","Februari","Desember"]
 
@@ -38,6 +40,16 @@ print(5* "*" *5)
 #       print(i)
 
 
-num = int(input("Enter any number"))
-for i in range(1,11):
-      print(num*i)
+for x in range(10,15):
+    if (x==15):break
+    if (x % 2 == 0):continue
+    print(x)
+
+for i in '123':
+    print("anca",i)
+
+for i in range(10,20):
+    if (i==20):break
+    if (i % 2 == 0):continue
+    print(i)
+
