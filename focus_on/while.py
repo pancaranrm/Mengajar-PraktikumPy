@@ -1,7 +1,7 @@
 x = 0
 while(x < 4):
     print(x)
-    x = x+ 1
+    x += 1
 
 # angka = int(input("MASUKKAN ANGKA <5"))
 angka = 0
