@@ -24,3 +24,4 @@ print(f"data sudah disort= \n {data}")
 # mereverse data 
 data.reverse()
 print(f"data sudah direverse= \n {data}")
+
