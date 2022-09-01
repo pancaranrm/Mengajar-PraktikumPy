@@ -47,5 +47,3 @@ print(5*"====")
 listan = ["Pancaran",13,"Desember"]
 for index,data in enumerate(listan):
     print(f"Index = {index},data = {data}")
-
-
