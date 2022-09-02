@@ -29,5 +29,8 @@ print(f"diupdate secara biasa",data_dict)
 # pake update saja
 data_dict.update({"Marx":"ucup surucup"})
 print(data_dict)
-data_dict.update({"faqih":"faqihza si kweren"}) # kalau gak ada diadd ajah
+data_dict.update({"faqih":"faqihza si kweren"}) # kalau gak ada di key jadinya diadd 3>
 print(data_dict)
+
+del data_dict["Carl Marx"]
+print(f"data dict yang sekarang{data_dict}")
