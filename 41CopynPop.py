@@ -3,7 +3,6 @@
 
 from copy import copy
 
-
 data_dict = {
     'Caca':'Marxisme',
     'Max' : 'Kapitalisme',
