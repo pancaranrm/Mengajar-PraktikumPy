@@ -14,20 +14,21 @@ datam = {
 
 mhs = {}
 
-while True:
-    os.system("cls")
-    print("SELAMAT DATANG MAHASISWA")
-    print("Harap Isi Form Dibawah")
-    print("-"*50)
+# while True:
+os.system("cls")
+print("SELAMAT DATANG MAHASISWA")
+print("Harap Isi Form Dibawah")
+print("-"*50)
 
-    mahasiswa = dict.fromkeys(datam.keys())
+mahasiswa = dict.fromkeys(datam.keys())
 
-    mahasiswa['nama'] = str(input("Masukkan nama anda"))
-    mahasiswa['nim'] = int(input("Masukkan NIM anda"))
-    mahasiswa['sks_lulus'] = int(input("Masukkan SKS anda"))
-    TAHUN = int(input("Tahun lahir kamu"))
-    BULAN = int(input("Bulan lahir kamu"))
-    TANGGAL = int(input("Tanggal lahir kamu"))
-    mahasiswa['lahir'] = datetime.datetime(TAHUN,BULAN,TANGGAL)
-    print(mahasiswa)
+mahasiswa['nama'] = str(input("Masukkan nama anda"))
+mahasiswa['nim'] = int(input("Masukkan NIM anda"))
+mahasiswa['sks_lulus'] = int(input("Masukkan SKS anda"))
+TAHUN = int(input("Tahun lahir kamu"))
+BULAN = int(input("Bulan lahir kamu"))
+TANGGAL = int(input("Tanggal lahir kamu"))
+mahasiswa['lahir'] = datetime.datetime(TAHUN,BULAN,TANGGAL)
+print(mahasiswa) # knp ga bisa woi 
 
+mhs.update({'key':mahasiswa})
