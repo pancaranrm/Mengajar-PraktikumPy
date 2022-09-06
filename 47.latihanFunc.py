@@ -1,11 +1,11 @@
-import os
+import os # build in
 from signal import valid_signals
 
 # program menghitung luas dan keliling persegi panjang
 # buat headernya dulu
 
 def header():
-    os.system("Clear")
+    os.system("cls")
     print(f"{'PROGRAM UNTUK MENGHITUNG LUAS':^40}")
     print(f"{'DAN KELILING PERSEGI PANJANG':^40}")
     print(f"{'-'*40:^40}")
@@ -22,7 +22,7 @@ def hitungKeliling(lebar,panjang):
     return 2*(lebar+panjang)
 
 def message(massage,value):
-    print(f"Hasil perhitungan {massage} + {value}")
+    print(f"Hasil perhitungan {massage} = {value}")
 
 
 while True:
