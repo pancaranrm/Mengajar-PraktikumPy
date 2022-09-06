@@ -19,7 +19,6 @@ panjang = len(kumpulan)
 for i in range(panjang):
     print(f"Pokoknya {kumpulan [i]}")
 
-
 # while loop
 print(5*"====")
 print("WHILE LOOP")
@@ -35,7 +34,6 @@ while i < panjang:
 print(5*"====")
 data = ["Pancaran",13,"September"]
 [print(f"data = [i]") for i in data]
-
 
 print(5*"====")
 angka = [1,2,3,4,5,6]

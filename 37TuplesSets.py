@@ -11,4 +11,4 @@ print("Data : ",setss)
 # tuples[1]= 4
 # print("Yang baru",tuples)\
 
-print(setss[1])# ga bisa
+# print(setss[1])# ga bisa
