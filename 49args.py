@@ -54,7 +54,7 @@ def tambah(*data):
         output += data
         return output
     
-hasil = tambah(10,20,20)
+hasil = tambah(10,20,20) #harus tauple
 print(f"Hasil = {hasil}")
 
 #akan error jika
