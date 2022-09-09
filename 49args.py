@@ -35,4 +35,28 @@ iden(["Anca",150,40])
 
 # MENGGUNAKAN *ARGS
 
-print(5*"#MENGGUNAKAN *ARGS")
+print(2*"#")
+
+def fungsi(*argum):
+    # data = datalist.copy() ga usah pake ini yah
+    nama = argum[0]
+    tinggi = argum[1]
+    berat = argum[2]
+    print(f"Nama = {nama}, tinggi = {tinggi}, berat = {berat} ")
+    
+fungsi("Haura",160,46) #this is tauple
+
+
+# Studi kasus mengenai *args
+def tambah(*data):
+    output = 0
+    for angka in data:
+        output += data
+        return output
+    
+hasil = tambah(10,20,20)
+print(f"Hasil = {hasil}")
+
+#akan error jika
+# hasil = tambah(operasi = "Hasilnya",12,2,3)
+# mangkanya kita pake **args
