@@ -29,3 +29,15 @@ hasil = studik(10,90,op = "tambah" )
 hasil = studik(10,90,op = "kurang" )
 
 # yey udah 
+def tambah(*data):
+    output = 0
+    for angka in data:
+        output += angka
+    return output
+    
+hasil = tambah(1,2,2,23,3)
+print(f"Hasil = {hasil}")
+
+hasil = tambah(12,3)
+print(f"Hasil = {hasil}")
+
