@@ -1,7 +1,19 @@
 """
 Args digunakan untuk menjadikan parameter/argumen lebih dinamis
 *args /nama args tuh bebas asal depannya ada *
+ingat argumen dan parameter itu beda
+    - argumen nilai inputan fungsi pada saat fungsi itu dipanggil
+    - parameter nilai inputan fungsi yang udah didefinisikan
 bakal kepake buat filtering/mapping 
+
+format penggunaan:
+
+def func(patam1,patam2):
+    '''
+    return fungsi
+
+fungsi(arg1,arg2)
+
 """
 
 # def fun(funa, *funb):

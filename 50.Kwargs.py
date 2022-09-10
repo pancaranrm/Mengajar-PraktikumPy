@@ -15,7 +15,7 @@ def fungsi(**kwargs):
     
 fungsi(nama = "Ucuplas",tinggi= 120, berat = 20)
     
-    
+# args + kwargs
 def studik(*a,**b):
     if b["op"] == "tambah":
         print(f"Ini adalah operasi {a}")
