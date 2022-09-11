@@ -6,6 +6,9 @@ funa("Pancaran",160,40)
 
 
 # Bisa dimix n match dgn dictionary 
+# ingat dictionary = key | value 
+# jadi kwargs itu melewatkan jumlah argumen menggunakan KATA KUNCI 
+ 
 def fungsi(**kwargs):
     nama = kwargs["nama"]
     tinggi = kwargs["tinggi"]

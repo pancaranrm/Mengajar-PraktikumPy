@@ -1,15 +1,15 @@
 
-# kalimat = input("Maukkan kalimat")
+kalimat = input("Maukkan kalimat")
 
-# def deteksi(kalimat):
-#     if 'Python' in kalimat:
-#         print(True)
-#     elif 'python' in kalimat:
-#         print(True)
-#     else:
-#         print(False)
+def deteksi(kalimat):
+    if 'Python' in kalimat:
+        print(True)
+    elif 'python' in kalimat:
+        print(True)
+    else:
+        print(False)
     
-# deteksi(kalimat)
+deteksi(kalimat)
 
 
 # def display(**kwargs):
@@ -59,7 +59,6 @@ def my_func(*args, **kwargs):
 my_func("abc", "abc", 123, "abc", key=123, abc=123)
 
 
-
 # def my_func(abc=None, *args, **kwargs):
 #     print("hello world", args, kwargs)
 
@@ -72,8 +71,6 @@ def my_func(abc=None, *args, **kwargs):
 
 my_func(122) #ga berlaku
 
-
-
 def myrand(request, **kwargs):
     print(kwargs)
     # Product.objects.get(id=kwargs.get('id'))
@@ -82,3 +79,11 @@ def myrand(request, **kwargs):
 myrand("request", id=12345)
 
 
+# def apa(param1,paramb):
+#     if param1 == 'Pukis':
+#         print(f"{param1} kamu sekolah dimana?")
+#     elif paramb == 'Cudu':
+#         print(f"{paramb} kamu sekolah dimana?")
+        
+# hasil = apa("Pukis","Cudu")
+# print(f"hasilnya coba = {hasil}")
