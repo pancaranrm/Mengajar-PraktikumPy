@@ -78,10 +78,13 @@ def pangkat(angka,n):
 data_hasil = pangkat(5,2)
 print(f"fungsi biasa {data_hasil}")
 
+
 # menggunakan currying dapat membuat nam func sendiri
 def pangkat(n):
     return lambda angka:angka**n
 
+# buat nama func sendiri
+# fungsi bisa dimasukkin argumen
 pangkat2 = pangkat(2)
 print(f"Pangkat 2 = {pangkat2(3)}") #3 ^ 2 
 
@@ -89,4 +92,3 @@ pangkat3 = pangkat(3)
 print(f"Pangkat 3 = {pangkat3(2)}") # 2^3 
 
 print(f"Pangkat bebas = {pangkat(4)(2)}") # 4 pangkat 2
-

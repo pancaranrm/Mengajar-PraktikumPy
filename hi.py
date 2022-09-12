@@ -1,1 +1,1 @@
-print("NYOBA AJA")
+print("Ini adalah program untuk diimport")
