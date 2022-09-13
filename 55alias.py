@@ -1,4 +1,5 @@
 # aliasing
+import buatimpor as math #bisa dilakukan
 from buatimpor import pertambahan as add
 from buatimpor import perkalian as kali
 from buatimpor import pangkat as kuadrat
