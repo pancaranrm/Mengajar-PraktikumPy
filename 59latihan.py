@@ -21,7 +21,7 @@ AGREEMENT = tk.StringVar()
 
 
 # fungsi agreement
-def agreement_changed():
+def agreement_changed():    
     tk.messagebox.showinfo(title='Result',
     message= AGREEMENT.get())
 
@@ -48,6 +48,12 @@ lpw.pack(padx=8,pady=8,fill="x",expand=True)
 # entry pw
 epw = ttk.Entry(inputFrame,textvariable=PW)
 epw.pack(padx=8,pady=8,fill="x",expand=True)
+
+'''
+    gunakan ttk.Checkbutton(text,variable)
+    command untuk spesifik func yg digunakan
+    obvalue and offvalue untuk menentukan value apa yang diambil
+'''
 
 ttk.Checkbutton(jendela,
                 text='I agree',
