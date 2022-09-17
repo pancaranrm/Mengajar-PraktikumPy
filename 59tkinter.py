@@ -1,3 +1,4 @@
+# tkinter is a GUI in python
 import tkinter as tk
 from tkinter import Entry, ttk
 from tkinter.messagebox import showinfo
