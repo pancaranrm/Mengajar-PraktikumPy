@@ -17,11 +17,14 @@ data_count = Counter(data)
 
 print(f"Total data adalah {data_count}")
 print(f"Total data A adalah {data_count['A']}")
-print(f"Total data D adalah {data_count['D']}")
+print(f"Total data D adalah {data_count['D']}") 
 
 
 import io
-file = io.open("text.txt","r")
+file = io.open("text.txt","r") #read file/text
 print(file.read())  
+
+gambar = io.open("myfile.jpg","rb") #read bytes
+print(gambar.read())
 
 # ada banyak cari aja di documentationnya
