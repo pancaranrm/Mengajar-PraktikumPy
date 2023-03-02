@@ -27,6 +27,15 @@ from xml.dom.pulldom import END_DOCUMENT
 #     num += 1
 # print("\t END \t")
 
+
+# num = 0
+# print(int(input("Masukkan angka")))
+
+# while(num <= 20):
+#     print(num, "\t\t\t\t",  num *2)
+#     num += 1
+# print("\t ## ENDING ##")
+
 # # question 4
 # Write a program to print sum of first 10 Even numbers.
 # sum = 2
@@ -82,7 +91,7 @@ dua bilangan (tidak termasuk kedua bilangan) yang dimasukkan dari pengguna mengg
 #     while(num1>num2):
 #         if num2 % 2 == 0:
 #             print(num2)
-#         num2 =+ 1
+#         num2 =+ 1 
 # else:
 #     while(num1<num2):
 #         if num1 % 2 == 0:
@@ -98,6 +107,9 @@ dua bilangan (tidak termasuk kedua bilangan) yang dimasukkan dari pengguna mengg
 #     print(f"Count {n}")
 
 #     if n == k:
-#         print("apa")
 #         break
 #     print("Nice")
+    
+
+
+

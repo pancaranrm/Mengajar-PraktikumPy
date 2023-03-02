@@ -20,7 +20,6 @@ print("ini adalah data...",dataGabung1)
 print("ini adalah data...",dataGabungCopy)
 
 # deepcopy
-
 from copy import deepcopy
 
 dataGabung1 = [data_0,data_1]

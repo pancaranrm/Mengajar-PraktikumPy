@@ -19,7 +19,7 @@ a %= 4
 print("Hasilnya adalah : ",a)
 
 a //= 4
-print("Hasilnya adalah : ",a)
+print("Hasilnya adalah  a// : ",a)
 
 a **= 5
 print("Hasilnya adalah : ",a)
@@ -40,7 +40,7 @@ print("nilai c |= False, nilai c menjadi",c)
 
 # AND
 c = True
-print("\nnilai c =",c)
+print("\n nilai c =",c)
 c &= False
 print("nilai c &= False, nilai c menjadi",c)
 c = True

@@ -26,5 +26,5 @@ print(ganjil)
 
 # membuat list menggunakan for | pake if biasa
 # jangan print ketika 5
-p = [i for i in range(0,11)if i !=5]
+p = [i for i in ra`nge(0,11)if i !=5]
 print(p)

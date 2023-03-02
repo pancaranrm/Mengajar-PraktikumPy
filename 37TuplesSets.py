@@ -9,6 +9,6 @@ print("Data : ",setss)
 
 # tidak bisa dilakukan
 # tuples[1]= 4
-# print("Yang baru",tuples)\
+# print("Yang baru",tuples)
 
 # print(setss[1])# ga bisa

@@ -21,7 +21,7 @@ print(data)
 
 # menambah di akhir list
 data.append("tambah akhir")
-print("Data ditmbah lagi",data)
+print("Data ditmbah lagi ",data)
 
 # menggabungkan list
 data_baru = ['Anca','okr','cape']
@@ -29,7 +29,7 @@ data.extend(data_baru)
 print("Data baru",data)
 
 # merubah data
-data[1] = "Yaudah"
+data[1] = "Yaudah" 
 print("Data diubah menjadi",data)
 
 # menghapus data 

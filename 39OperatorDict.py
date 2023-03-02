@@ -12,7 +12,6 @@ LENDICT = len(data_dict)
 print(f"Panjang dictionary: {LENDICT}")
 
 # mengecek ada/ tidak
-
 KEY = "Marxisme"
 CHECKK =  KEY in data_dict
 print(f"Adakah kalimat {KEY} : {CHECKK}")
@@ -20,7 +19,7 @@ print(f"Adakah kalimat {KEY} : {CHECKK}")
 # mengecek data
 print(data_dict["Chc"])
 print(data_dict.get("Chc"))
-print(data_dict.get("Coo","tidak diteukan"))
+print(data_dict.get("Coo","tidak ditemukan"))
 
 # mengupdate data
 data_dict [1] = "Marxii"

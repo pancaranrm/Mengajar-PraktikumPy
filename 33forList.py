@@ -5,7 +5,6 @@ for angka in list_angka:
     print(f"List angka = {angka}")
 
 list_nama = ["Pancaran","Ratna","Mustika"]
-
 print(5*"====")
 
 for nama in list_nama:
@@ -41,6 +40,7 @@ akuadrat = [i**2 for i in angka]
 print(akuadrat)
 
 print(5*"====")
+
 # enumarate
 listan = ["Pancaran",13,"Desember"]
 for index,data in enumerate(listan):

@@ -1,6 +1,7 @@
 # Write a program to check whether a person is eligible for voting or not. (accept age from user)
 
 
+from ast import If
 import datetime as dt
 
 tanggalan = int(input("Date : \t"))
@@ -20,4 +21,6 @@ elif umur_tahun < 17:
     print("You're not allowed to join")
 else:
     print("none")
+
+
 

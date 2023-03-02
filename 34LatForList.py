@@ -22,8 +22,8 @@ while True:
     # apakah sudah selesai
     isLanjut = input("Apkakah lanjut? y/n")
 
-    if isLanjut == " `n":
-        break
+    if isLanjut == " n":
+        break ``
         
 
     print("PROGRAM SELESAI")

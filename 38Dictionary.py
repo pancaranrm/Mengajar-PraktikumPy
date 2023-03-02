@@ -14,3 +14,4 @@ data_dict = {
 }
 print(data_dict['Chc'])
 print(data_dict['pyk'])
+print(data_dict['Carl Marx'])
