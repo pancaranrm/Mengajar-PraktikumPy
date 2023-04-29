@@ -1,15 +1,15 @@
 
-kalimat = input("Maukkan kalimat")
+# kalimat = input("Maukkan kalimat")
 
-def deteksi(kalimat):
-    if 'Python' in kalimat:
-        print(True)
-    elif 'python' in kalimat:
-        print(True)
-    else:
-        print(False)
+# def deteksi(kalimat):
+#     if 'Python' in kalimat:
+#         print(True)
+#     elif 'python' in kalimat:
+#         print(True)
+#     else:
+#         print(False)
     
-deteksi(kalimat)
+# deteksi(kalimat)
 
 
 # def display(**kwargs):

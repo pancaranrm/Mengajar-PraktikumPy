@@ -7,7 +7,7 @@
     5. Anonymous Function = function without name
 '''
 
-# lambda py digunakan untuk menyingka penulisan kuadrat
+# lambda py digunakan untuk menyingkat penulisan kuadrat
 # output = lambda argumen:expression
 
 # kuadarat biasa
@@ -53,6 +53,7 @@ data_angkaa = list(filter(kurangdari5,data_angka))
 data_angkab = list(filter(lambda x : x < 7,data_angka))
 
 print(data_angkaa)
+print("")
 print(data_angkab)
 
 # sorting data genap

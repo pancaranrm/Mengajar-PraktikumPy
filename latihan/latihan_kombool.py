@@ -19,8 +19,7 @@ print("Lebih dari 10 = ", isLebih)
 isCorrect = isKurang or isLebih
 print("angka yang anda masukkan = ", isCorrect)
 
-
-#  SOAL B
+ #  SOAL B
 #  ---3++++10--- 
 
 inputUser = float(input("Masukkan angka lebih dari 3 / kurang dari 10"))

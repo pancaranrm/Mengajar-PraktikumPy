@@ -26,7 +26,7 @@ def agreement_changed():
     message= AGREEMENT.get())
 
 # fungsi tombol
-def tombol_click():
+def tombol_click():   
     pesan = f"Halo {NAMA.get()} {PW.get()}, {AGREEMENT.get()},Verified!"
     showinfo(title="HASIL",message=pesan)
 

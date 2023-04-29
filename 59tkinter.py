@@ -1,14 +1,17 @@
 # tkinter is a GUI in python
 import tkinter as tk
 from tkinter import Entry, ttk
+#  ttk -> theme / tema
 from tkinter.messagebox import showinfo
 
 # init
 window = tk.Tk()
+
+# setting biar windownya sesuai yang kita mau
 window.configure(bg="white") 
 window.geometry("700x300") 
-window.resizable(False,False) 
-window.title("Judulnya")
+window.resizable(False,False)   
+window.title("Judulnya ayam")
 
 #  variable yang dibutuhkan
 NAMA_DEPAN = tk.StringVar()
@@ -22,6 +25,7 @@ def tombol_click():
 
 # frame input
 input_frame  = ttk.Frame(window)
+#  grid, pack, place
 input_frame.pack(padx=10,pady=10,fill="x",expand=True)
 
 
@@ -43,6 +47,7 @@ entryBelakang = ttk.Entry(input_frame,textvariable=NAMA_BELAKANG)
 entryBelakang.pack(padx=10,fill="x",expand=True)
 
 # 3. Tombol
+#  fungsi command untuk 
 tombol_sapa = ttk.Button(input_frame,text="Sapa saya",command=tombol_click)
 tombol_sapa.pack(fill='x',expand=True,padx=10,pady=10)
 

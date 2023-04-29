@@ -21,8 +21,8 @@ print(f"Total data D adalah {data_count['D']}")
 
 
 import io
-file = io.open("text.txt","r") #read file/text
-print(file.read())  
+file = open("text.txt","r") #read file/text
+print(file.read())   
 
 gambar = io.open("myfile.jpg","rb") #read bytes
 print(gambar.read())

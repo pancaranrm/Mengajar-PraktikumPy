@@ -3,6 +3,7 @@
 list_buku = []
 while True:
 	print("\nMasukan data buku")
+ 
 	judul = input("Judul buku\t: ")
 	penulis = input("Nama penulis\t: ")
 
